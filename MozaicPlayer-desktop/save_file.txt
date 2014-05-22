@@ -1,0 +1,1 @@
+{started:false,mode:Classic,musicOn:false,pieces:[],sfxOn:false}

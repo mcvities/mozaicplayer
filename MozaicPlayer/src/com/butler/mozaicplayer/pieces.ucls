@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.butler.mozaicplayer.Model.Pieces.FlickPiece" project="MozaicPlayer" 
+    file="/MozaicPlayer/src/com/butler/mozaicplayer/Model/Pieces/FlickPiece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="372" x="301" y="666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.butler.mozaicplayer.Model.Pieces.OriginalPiece" project="MozaicPlayer" 
+    file="/MozaicPlayer/src/com/butler/mozaicplayer/Model/Pieces/OriginalPiece.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="363" x="723" y="666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.butler.mozaicplayer.Model.Pieces.Piece" project="MozaicPlayer" 
+    file="/MozaicPlayer/src/com/butler/mozaicplayer/Model/Pieces/Piece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="327" x="301" y="5"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.butler.mozaicplayer.Model.Pieces.FlickSpritePiece" project="MozaicPlayer" 
+    file="/MozaicPlayer/src/com/butler/mozaicplayer/Model/Pieces/FlickSpritePiece.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="439" x="301" y="1139"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.butler.mozaicplayer.Model.Pieces.SpritePiece" project="MozaicPlayer" 
+    file="/MozaicPlayer/src/com/butler/mozaicplayer/Model/Pieces/SpritePiece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="476" x="-215" y="666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.butler.mozaicplayer.Model.Pieces.ReflectPiece" project="MozaicPlayer" 
+    file="/MozaicPlayer/src/com/butler/mozaicplayer/Model/Pieces/ReflectPiece.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="478" x="723" y="5"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="10">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="11" name="p"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="15">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="16" name="overlapping"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
